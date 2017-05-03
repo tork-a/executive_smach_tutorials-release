@@ -1,0 +1,13 @@
+Source: ros-indigo-smach-tutorials
+Section: misc
+Priority: extra
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/smach_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-indigo-smach-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-rospy, ros-indigo-smach, ros-indigo-smach-ros, ros-indigo-turtlesim
+Description: This package containes numerous examples of how to use SMACH.
+ See the examples directory.
